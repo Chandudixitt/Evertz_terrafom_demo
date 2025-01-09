@@ -14,21 +14,21 @@ subnet_cidr = [
     {address_prefix = "10.0.2.0/24"}
 ]
 
-instance_details ={
-    bin = {
-        assign_public_ip = "yes"
+//instance_details ={
+  //  bin = {
+        //assign_public_ip = "yes"
         //sg_index = 0
-        instance_type = "t2.micro"
-        volume_type = "gp3"
-        volume_size = 64
-        ami_id = "ami-0abcdef1234567890"
-    },
-    bash = {
-        assign_public_ip = "yes"
+        //instance_type = "t2.micro"
+        //volume_type = "gp3"
+        //volume_size = 64
+        //ami_id = "ami-0abcdef1234567890"
+    //},
+    //bash = {
+      //  assign_public_ip = "yes"
         //sg_index = 0
-        instance_type = "t2.micro"
-        volume_type = "gp2"
-        volume_size = 64
-        ami_id = "ami-0abcdef1234567890"
-    }
-}
+       // instance_type = "t2.micro"
+        //volume_type = "gp2"
+        //volume_size = 64
+        //ami_id = "ami-0abcdef1234567890"
+    //}
+//}
