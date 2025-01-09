@@ -7,7 +7,10 @@ terraform {
   }
 }
 
-# Configure the AWS Provider
-provider "aws" {
-  region = "us-west-1"
+terraform {
+  backend "s3" {
+    bucket = "my-demo-evertz-bucket"
+    key    = "terraform.tfstate"
+    region = "us-west-1"
+  }
 }
