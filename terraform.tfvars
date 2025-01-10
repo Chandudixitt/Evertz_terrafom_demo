@@ -1,4 +1,4 @@
-aws_region           = "us-west-1"
+region           = "us-west-1"
 vpc_cidr_block       = "10.0.0.0/16"
 key_name             = "my-key"
 create_vpc   = "yes"
