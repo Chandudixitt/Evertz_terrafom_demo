@@ -16,7 +16,7 @@ module "vpc" {
 module "internet_gateway" {
   source       = "./modules/internet_gateway"
   count        = lower(var.create_vpc)  == "yes" ? 1 : 0
-  m_igwname    = "${var.App_prefix}-${local.location_prefix}-${var.Env_prefix}-${var.igw_prefix}-${count.index +1}"
+  m_igwname    = "${var.App_prefix}-${local.location_prefix}-${var.Env_prefix}-${var.igw_prefix}-${count.index}"
   m_vpc_id     = module.vpc[0].vpc_id
   depends_on   = [module.vpc]
 }
