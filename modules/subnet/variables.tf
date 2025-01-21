@@ -9,4 +9,6 @@ variable "m_subnet_cidr" {
   description = "CIDR block for the public subnet"
   type        = string
 }
+variable "m_availability_zone" {
+}
 
