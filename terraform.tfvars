@@ -10,8 +10,13 @@ publicrt_prefix = "rt"
 igw_prefix  = "igw"
 
 subnet_cidr = [
+    {address_prefix = "10.0.0.0/24"},
     {address_prefix = "10.0.1.0/24"},
-    {address_prefix = "10.0.2.0/24"}
+    {address_prefix = "10.0.2.0/24"},
+    {address_prefix = "10.0.3.0/24"},
+    {address_prefix = "10.0.4.0/24"},
+    {address_prefix = "10.0.5.0/24"},
+    {address_prefix = "10.0.6.0/24"}
 ]
 
 //instance_details ={
