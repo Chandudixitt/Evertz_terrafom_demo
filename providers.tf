@@ -9,7 +9,7 @@ terraform {
 
 terraform {
   backend "s3" {
-    bucket = "my-demo-evertz-bucket"
+    bucket = "evertz-demo-terraform-bucket"
     key    = "terraform.tfstate"
     region = "us-west-1"
   }
